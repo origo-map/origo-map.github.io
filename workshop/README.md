@@ -1,6 +1,6 @@
 # Workshop Origo, Kartdagarna 2018
 
-länk till den här sidan
+Länk till den här sidan: https://origo-map.github.io/workshop/
 
 Det här behöver du:
 
