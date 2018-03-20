@@ -1,6 +1,6 @@
 # Workshop Origo, Kartdagarna 2018
 
-Länk till den här sidan: https://origo-map.github.io/workshop/
+Länk till den här sidan: [https://origo-map.github.io/workshop/](https://origo-map.github.io/workshop/)
 
 Det här behöver du:
 
@@ -95,7 +95,7 @@ I den här övningen ska du prova att byta stil på WFS-lagret från ovan. Efter
   [{
     "icon": {
       "size": [32, 32],
-      "src":"https://www.malardalskartan.se/origo/workshop/img/png/person.png"
+      "src":"https://origo-map.github.io/workshop/img/person.png"
     }
   }]
 ],
