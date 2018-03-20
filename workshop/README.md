@@ -138,7 +138,7 @@ I Origo finns det en inbyggd kontroll för att göra enkla redigeringar via webb
 },
 ```
 
-- Gör lagret redigerbart genom att lägga till raden `editable: true`. Lagerdefinitionen ska nu se ut så här:
+- Gör lagret redigerbart genom att lägga till raden `"editable": true` och `"geometryType": "Point"`. Lägg också till en inställning för att möjliggöra redigering av attribut, `"type": "text"`. Lagerdefinitionen ska nu se ut så här:
 
 ```
 {
@@ -150,9 +150,11 @@ I Origo finns det en inbyggd kontroll för att göra enkla redigeringar via webb
   "type": "WFS",
   "visible": true,
   "editable": true,
+  "geometryType": "Point",  
   "attributes": [
       {
-        "name": "name"
+        "name": "name",
+        "type": "text"
       }
   ]
 },
@@ -182,8 +184,8 @@ Med redigeringsverktyget i Origo kan man ändra, lägga till och ta bort objekt 
 
 - Uppdatera kartan
 
-## Extra-övningar
-Om du får tid över och vill testa Origo lite mer kan du göra de här extra-övningarna. Använd api-dokumentationen som hjälp.
+## Extra övningar
+Om du får tid över och vill testa Origo lite mer kan du göra de här extra övningarna. Använd api-dokumentationen som hjälp.
 
 * Testa att lägga till en splash-kontroll med valfri text som innehåll.
 * WFS-lagret ws-cities innehåller också attributet url. Testa att använda det attributet för att visa en klickbar länk som visas när man identifierar lagret.
