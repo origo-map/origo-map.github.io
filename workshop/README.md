@@ -29,9 +29,9 @@ Det här behöver du:
   ```
 
 - Starta webbservern Mongoose genom att dubbelklicka på exe-filen i workshop-mappen. Om du redan har en tjänst som använder port 8080 kommer det inte gå att starta webbservern. Be en workshop-ledare om hjälp i så fall.
-- Om allt har gått rätt ska du nu kunna se en Origo-karta genom att följa den här länken: http://10.0.1.16:8080.
+- Om allt har gått rätt ska du nu kunna se en Origo-karta genom att följa den här länken: <http://10.0.1.16:8080>.
 - Installera Notepad++ eller hoppa över steget om du redan har en editor som du vill använda.
-- Som stöd till workshopen kan du med fördel använda api-dokumentationen för Origo: https://origo-map.github.io/api-documentation/latest/#origo-api
+- Som stöd till workshopen kan du med fördel använda api-dokumentationen för Origo: <https://origo-map.github.io/api-documentation/latest/#origo-api>
 
 ## Grundläggande konfigurationer
 
