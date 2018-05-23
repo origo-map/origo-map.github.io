@@ -8,6 +8,7 @@ Det här behöver du:
 - Mongoose (webbserver): <https://cesanta.com/binary.html>
 - Editor: <https://notepad-plus-plus.org/download/v7.5.6.html>
 - En dator med administratörs-rättigheter.
+- (Eller https://jsfiddle.net/tabevoos/14/ för att slippa installera/saknar admin-rättigheter)
 
 ## Förberedelser
 
