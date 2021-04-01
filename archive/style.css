@@ -1,7 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
-
 h1 {
   text-align: center;
   color: darkgray;
@@ -31,8 +30,9 @@ ul {
 li {
   display: block;
   transition-duration: 0.5s;
+  clear: both;
 }
- li a:hover { 
+li a:hover { 
   background-color: #e0dedb;
 }
 li a { 
@@ -56,8 +56,8 @@ ul li ul:hover {
   display: block;
   cursor: pointer;
 }
-ul li ul li {
-  clear: both;
+ul li ul li a { 
+  background-color: #eee8de;
 }
 .dropdown {
   padding: 0 0 0 0;
